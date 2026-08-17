@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ShopEase - Online Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                🛍️ ShopEase
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="cart-btn">🛒 Cart <span id="cart-count">0</span></button>
+                <button id="login-btn">Login</button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <h1>Shop Smart, Live Better</h1>
+
+            <p>
+                Discover amazing products at the best prices.
+                Shop your favourite products easily and quickly.
+            </p>
+
+            <a href="#products" class="shop-btn">
+                Shop Now
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Products Section -->
+    <section class="products-section" id="products">
+
+        <h2>Our Products</h2>
+
+        <p class="section-subtitle">
+            Explore our latest collection
+        </p>
+
+        <div class="products-container" id="products-container">
+
+            <!-- Products will be added using JavaScript -->
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+
+        <h2>About ShopEase</h2>
+
+        <p>
+            ShopEase is a simple online shopping platform where
+            customers can discover and purchase their favourite products.
+        </p>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+
+        <h2>Contact Us</h2>
+
+        <p>Email: support@shopease.com</p>
+
+        <p>Phone: +91 98765 43210</p>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 ShopEase. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    
+
+
+<!-- Cart Panel -->
+<div class="cart-panel" id="cart-panel">
+
+    <div class="cart-header">
+        <h2>Your Cart</h2>
+
+        <button id="close-cart">
+            ✕
+        </button>
+    </div>
+
+    <div id="cart-items">
+        <!-- Cart products will appear here -->
+    </div>
+
+    <div class="cart-footer">
+
+        <h3>
+            Total:
+            ₹<span id="cart-total">0</span>
+        </h3>
+
+        <button id="checkout-btn">
+            Checkout
+        </button>
+
+    </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
