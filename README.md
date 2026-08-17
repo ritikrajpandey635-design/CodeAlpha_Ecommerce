@@ -50,3 +50,5 @@ CodeAlpha_Ecommerce/
 ├── style.css
 ├── .gitignore
 └── README.md
+developer;
+ritik raj pandey
